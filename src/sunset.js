@@ -3,7 +3,7 @@ import logger from "./logger";
 import moment from "moment";
 
 const apiUrl = "https://api.ipgeolocation.io/astronomy";
-const numberOfDays = 2; //183;
+const numberOfDays = 183;
 
 export default function getSunsets(latitude, longitude) {
   const params = {
