@@ -1,6 +1,25 @@
 # cocktail-hour
 
+## About
+Last night I was sitting out on the floating dock at my inlaws house on the creek at Litchfield
+beach having a drink and feeling on top of the world. The creek there is dramatically more scenic
+and the dock is dramatically more floaty at high tide. Furthermore, the sunsets at Litchfield are
+legendary. I don't know what it is, must be something in the air, but sunsets at Litchfield are
+the most beautiful thing in the world. So I thought about if I could figure out the times when we
+would hit that magical combination of sunset and high tide occurring around the same time to make
+sure not to let those moments pass us by. This project is the result of that thought.
+
+## Tech
+
+- a pretty basic Node.js project. I wasn't concerned about beautiful results
+- uses a couple of free APIs for sunset and tide data
+  - **tides:**  https://rapidapi.com/apihood/api/tides/
+  - **sunsets:**  https://api.ipgeolocation.io/astronomy
+- gathers data for the next 6 months with `npm run` the six month time horizon is the max of the tides api, could do longer with multiple api calls
+
 ## Results for Litchfield Beach
+
+### 6 months starting April 16, 2022
 
 - On Saturday, April 16th 2022 the sunset is at 7:48 pm and high tide is at 8:14 pm
 - On Friday, April 29th 2022 the sunset is at 7:57 pm and high tide is at 7:38 pm
