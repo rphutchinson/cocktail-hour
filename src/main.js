@@ -25,7 +25,7 @@ export default async function () {
     const sunsetTime = moment(`${sunsetData.date} ${sunsetData.sunset}`);
     const highTideTime = moment(highTideNearSunset.datetime);
     console.log(
-      `On ${sunsetTime.format(
+      `- On ${sunsetTime.format(
         "dddd, MMMM Do YYYY"
       )} the sunset is at ${sunsetTime.format(
         "h:mm a"
