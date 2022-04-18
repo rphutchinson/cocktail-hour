@@ -8,6 +8,7 @@ legendary. I don't know what it is, must be something in the air, but sunsets at
 the most beautiful thing in the world. So I thought about if I could figure out the times when we
 would hit that magical combination of sunset and high tide occurring around the same time to make
 sure not to let those moments pass us by. This project is the result of that thought.
+![sitting on the dock](static/photo.jpg)
 
 ## Tech
 
